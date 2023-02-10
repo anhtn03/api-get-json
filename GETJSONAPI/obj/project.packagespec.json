@@ -1,0 +1,73 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/mac/work space /get-random-json/GETJSONAPI/GETJSONAPI/GETJSONAPI.csproj",
+    "projectName": "GETJSONAPI",
+    "projectPath": "/Users/mac/work space /get-random-json/GETJSONAPI/GETJSONAPI/GETJSONAPI.csproj",
+    "outputPath": "/Users/mac/work space /get-random-json/GETJSONAPI/GETJSONAPI/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "net50"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp5.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp5.0": {
+      "dependencies": {
+        "System.Text.Encodings.Web": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        },
+        "System.Text.Json": {
+          "target": "Package",
+          "version": "[5.0.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "downloadDependencies": [
+        {
+          "name": "Microsoft.AspNetCore.App.Ref",
+          "version": "[5.0.0, 5.0.0]"
+        },
+        {
+          "name": "Microsoft.NETCore.App.Host.osx-x64",
+          "version": "[5.0.15, 5.0.15]"
+        },
+        {
+          "name": "Microsoft.NETCore.App.Ref",
+          "version": "[5.0.0, 5.0.0]"
+        }
+      ],
+      "frameworkReferences": {
+        "Microsoft.AspNetCore.App": {
+          "privateAssets": "none"
+        },
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "/Users/mac/.dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+    }
+  }
+}

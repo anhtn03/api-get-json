@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "ILyqpZdwu1/rmxJpZMIIMb3TvzPjem7OKg/joUqF1thjDTN8Y3OwmJiR7oZXepd/wFa3LyaBuUPRQx2zyTuZFQ==",
+  "success": true,
+  "projectFilePath": "/Users/mac/work space /get-random-json/api-get-json/GETJSONAPI/GETJSONAPI.csproj",
+  "expectedPackageFiles": [
+    "/Users/mac/.nuget/packages/newtonsoft.json/5.0.6/newtonsoft.json.5.0.6.nupkg.sha512",
+    "/Users/mac/.nuget/packages/system.text.encodings.web/5.0.0/system.text.encodings.web.5.0.0.nupkg.sha512",
+    "/Users/mac/.nuget/packages/system.text.json/5.0.0/system.text.json.5.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Newtonsoft.Json 5.0.6' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}

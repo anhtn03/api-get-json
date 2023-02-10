@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'IIS Express' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'AppNote' " />
+  <ItemGroup>
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="Common\" />
+    <None Remove="Service\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Text.Encodings.Web" Version="5.0.0" />
+    <PackageReference Include="System.Text.Json" Version="5.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="5.0.6" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Common\" />
+    <Folder Include="Service\" />
+  </ItemGroup>
+</Project>
